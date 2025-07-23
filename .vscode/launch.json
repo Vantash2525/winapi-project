@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Window App",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "internalConsole"
+        }
+    ]
+}
